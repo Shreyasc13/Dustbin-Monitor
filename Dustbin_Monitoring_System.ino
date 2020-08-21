@@ -20,11 +20,11 @@ TinyGPSPlus gps;  // The TinyGPS++ object
 SoftwareSerial ss(D1, D2); // The serial connection to the GPS device
 
 
-#define FIREBASE_HOST "hack-ccbfc.firebaseio.com"
-#define FIREBASE_AUTH "EKLHV6JkCPxpmUPfugE8LPGfUzixCBtftXBRKmq3"
+#define FIREBASE_HOST "example.firebaseio.com"
+#define FIREBASE_AUTH "yourFirebaseaAuth"
 
-const char* ssid = "Shreyas";
-const char* password = "SHREYASC13";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 float latitude , longitude;
 int year , month , date, hour , minute , second;
